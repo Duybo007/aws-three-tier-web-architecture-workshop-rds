@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: db-config
 data:
-  DB_HOST: "mysql-service"
-  DB_USER: "root"
+  DB_HOST: "usermgmtdb.cyhe2oyqswca.us-east-1.rds.amazonaws.com"
+  DB_USER: "dbadmin"
   DB_DATABASE: "transactions_db" 
